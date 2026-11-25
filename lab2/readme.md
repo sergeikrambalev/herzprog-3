@@ -5,14 +5,25 @@
 # Тестирование функции:
 
 `test_basic_case` - ошибки в логике поиска пары
+
 `test_no_pair_exists` - возврат не `None`
+
 `test_empty_list` - `IndexError` или неверный результат при пустом входе
+
 `test_single_element` - несуществующий индекс; неверная обработка коротких списков
+
 `test_two_elements_match` - ошибки в минимальном рабочем случае
+
 `test_two_elements_no_match` - ложноположительный результат (пара не даёт нужной суммы)
+
 `test_negative_numbers` - неправильная работа со знаками
+
 `test_duplicate_values` - использование одного индекса дважды
+
 `test_multiple_valid_pairs` - возврат невалидной пары, когда подходящих пар несколько
+
 `test_zero_target` - специальные значения `target` (ноль)
+
 `test_pair_at_the_end` - ошибки в `range(len(nums)-1)` и `range(i+1, len(nums))`
+
 `test_same_value_needed_twice` - ошибка, когда функция считает, что один элемент можно использовать дважды
